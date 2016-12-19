@@ -1,0 +1,6 @@
+- hosts: pis
+  roles:
+    - picamera
+  tags: picamera
+  become: true
+  gather_facts: true
