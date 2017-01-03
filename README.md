@@ -17,17 +17,17 @@ a picamera for a Raspberry Pi.
 
 * Clone this repo
 
-      $> git clone https://github.com/robrant/ansible-role-picamera-example-playbook.git
+        $> git clone https://github.com/robrant/ansible-role-picamera-example-playbook.git
 
 * Get the submodule
 
-      $> git submodule init
+        $> git submodule init
 
 * Move some folders:
 
-      $> cd ansible-role-picamera-example-playbook
-      $> mv roles/picamera/library .
-      $> mv roles/picamera/top_level_handlers roles
+        $> cd ansible-role-picamera-example-playbook
+        $> mv roles/picamera/library .
+        $> mv roles/picamera/top_level_handlers roles
 
 * Modify `playbook.yml` as you need:
 
@@ -40,4 +40,4 @@ a picamera for a Raspberry Pi.
 
 * Run it
 
-      $> ansible-playbook --user=pi --ask-pass -i hosts playbook.yml
+        $> ansible-playbook --user=pi --ask-pass -i hosts playbook.yml
