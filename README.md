@@ -31,10 +31,10 @@ a picamera for a Raspberry Pi.
 
 * Modify `playbook.yml` as you need:
 
-      - hosts: pis
-        roles:
-          - picamera
-        tags: picamera
+        - hosts: pis
+          roles:
+            - picamera
+          tags: picamera
 
 * Modify `hosts` file as you need; replace `pibox0` with either the hostname or IP address of your pi.
 
